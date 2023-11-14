@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+ font-family: 'Agbalumo';
+ box-sizing: border-box;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{ 
+    background-image: url('https://w.wallhaven.cc/full/9m/wallhaven-9m1mv1.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#inicio .contenido header{
+    background-color: rgba( 0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index:100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bienvenida{
+    color:white
+}
+.presentacion{ font-family: Bitter;
+    color:white;
+}
+.titl{
+    text-align: center;
+    color: #6c1e44;
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-weight: 400;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header nav ul a:hover{
+   color: #6c1e60;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    transition: .5s;
+}
+
+.redes a:hover{
+    color: #6c1e60;
+
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height:100vh;
+    margin:auto;
+    columns: #fff ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 14px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+#inicio .contenido .presentacion h2{
+    font-family: Bitter;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: antiquewhite;
+}
+.descripcion{ font-family: Bitter;
+    max-width: 700px;
+    margin: 30px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info{ 
+    font-family: none;
+    font-size: 15px;
+    text-decoration: none ;
+    display:inline-block;
+    margin: 30px;
+    padding: 20px 15px;
+    border: 2px solid #6c1e60;
+    border-radius: 30px;
+    color:#F5F5DC ;
+    font-weight: bold;
+    text-transform:capitalize ;
+    transition: .5s;
+} 
+
+.info:hover{
+    background-color: #6c1e60 ;
+}
+
+#icono-nav{
+    color: #fff;
+    display: none;
+
+}
+
+/* seccion sobre mi */
+.contenedor-foto{
+    max-width: 1100px;
+    height:70vh;
+    display: flex;;
+    margin-right: 80px;
+}
+#sobremi{
+    background-color: lemonchiffon;
+    height: 100vh;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+}
+
+.titulo-seccion{
+   font-family: Bitter;
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 20px;
+}
+
+.historia{
+    font-family: >Bitter;
+
+}
+
+.habilidades{
+    font-family: Bitter;
+}
+
